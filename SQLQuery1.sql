@@ -32,3 +32,5 @@ select * from address_book_System
 DELETE FROM address_book_System WHERE City = 'Karad';
 select * from address_book_System
 
+---UC6 : Ability to retrieve person belonging to a city or state 
+SELECT * FROM address_book_System WHERE City='Nagpur';
