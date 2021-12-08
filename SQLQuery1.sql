@@ -16,3 +16,10 @@ Email_Id varchar(200)
 );
 select * from address_book_System
 
+---UC3 : Insert contacts in table
+select * from address_book_System 
+INSERT INTO address_book_System (First_Name,Last_Name,Address,City,State,Zip,Phone_Number,Email_Id) VALUES ('Konika','Singh','Pune','Nagpur','Maharashtra',4109,7777777777,'konika@gmail.com');
+INSERT INTO address_book_System (First_Name,Last_Name,Address,City,State,Zip,Phone_Number,Email_Id) VALUES ('Sania','Rajput','Satara','Karad','Maharashtra',4401,1111111111,'sania@gmail.com');
+INSERT INTO address_book_System (First_Name,Last_Name,Address,City,State,Zip,Phone_Number,Email_Id) VALUES ('Khoshbu','Patil','Tasgaon','Vita','Maharashtra',4112,2222222222,'khoshbu@gmail.com');
+INSERT INTO address_book_System (First_Name,Last_Name,Address,City,State,Zip,Phone_Number,Email_Id) VALUES ('Payal','Jadhav','Vita','Palus','Maharashtra',4339,3333333333,'payal@gmail.com');
+INSERT INTO address_book_System (First_Name,Last_Name,Address,City,State,Zip,Phone_Number,Email_Id) VALUES ('Kartik','Patil','Sangli','Tasgaon','Maharashtra',4429,4444444444,'kartik@gmail.com');
