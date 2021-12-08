@@ -31,3 +31,4 @@ select * from address_book_System
 ---UC5 : Delete person using first name
 DELETE FROM address_book_System WHERE City = 'Karad';
 select * from address_book_System
+
